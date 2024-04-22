@@ -1,0 +1,75 @@
+:root {
+    --reseda-green: #857e61ff;
+    --khaki: #b7a196ff;
+    --thistle: #ddc3d0ff;
+    --lavender-web: #dbdaeaff;
+    --light-cyan: #dbfcffff;
+    --rosa-palo: #f8e0e6; 
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #fff; 
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header, footer {
+    text-align: center;
+    background-color: var(--reseda-green);
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.left-column, .right-column {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+}
+
+.section-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+
+.descripcion-contacto {
+    background-color: var(--khaki);
+    color: #000;
+}
+
+.experiencia, .educacion, .hobbies {
+    background-color: var(--lavender-web);
+    color: #000;
+}
+
+.linea {
+    border-top: 1px solid #000;
+    margin-top: 20px;
+}
+
+
+.section-container h2 img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 30px; 
+    height: 30px; 
+}
+
+
+.additional-image {
+    margin-top: 20px; 
+    max-width: 100%; 
+    height: auto;
+}
